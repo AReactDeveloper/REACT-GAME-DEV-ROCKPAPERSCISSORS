@@ -1,0 +1,8 @@
+export const ACTIONS = {
+ WIN : 'WIN',
+ LOSE : 'LOSE',
+ DRAW : 'DRAW',
+ SET_PLAYER_CHOICE : 'SET_PLAYER_CHOICE',
+ SET_CO_CHOICE : 'SET_CO_CHOICE',
+ RESET : 'RESET',
+}

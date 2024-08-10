@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    /* Primary Colors */
+    --scissors-grad1: hsl(39, 89%, 49%);
+    --scissors-grad2: hsl(40, 84%, 53%);
+    --paper-grad1: hsl(230, 89%, 62%);
+    --paper-grad2: hsl(230, 89%, 65%);
+    --rock-grad1: hsl(349, 71%, 52%);
+    --rock-grad2: hsl(349, 70%, 56%);
+    --lizard-grad1: hsl(261, 73%, 60%);
+    --lizard-grad2: hsl(261, 72%, 63%);
+    --cyan-grad1: hsl(189, 59%, 53%);
+    --cyan-grad2: hsl(189, 58%, 57%);
+
+    /* Neutral Colors */
+    --dark-text: hsl(229, 25%, 31%);
+    --score-text: hsl(229, 64%, 46%);
+    --header-outline: hsl(217, 16%, 45%);
+
+    /* Background */
+    --bg-radial1: hsl(214, 47%, 23%);
+    --bg-radial2: hsl(237, 49%, 15%);
+
+    --fw-600 : 600;
+    --fw-700 : 700;
+
+    --ff-main: "Barlow Semi Condensed", sans-serif;
+}
+
+body{
+    font-family: var(--ff-main);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    all: unset;
+}
+
+.App{
+    background-image: linear-gradient(to bottom , var(--bg-radial1),var(--bg-radial2));
+    min-height: 100vh;
+    display: flex;
+    &__wrapper{
+        max-width: 900px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        padding-block: 30px;//colapsing margins issue
+        @media (min-width:500px) {
+            min-height: 60vh;
+            gap: 50px;
+        }
+    }
+}

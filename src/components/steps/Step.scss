@@ -1,0 +1,110 @@
+.step1{
+    background-image: url('./../../images/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    min-height: 300px;
+    max-width: 400px;
+    position: relative;
+    & .btn-scissors{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    & .btn-rock {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    & .btn-paper {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    @media (min-width:500px) {
+        margin-inline: auto;
+        width: 100%;
+    }
+}
+
+.step2{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    text-align: center;
+    align-items: center;
+    & > *{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    & h3{
+        margin-top: 20px;
+        color: white;
+    }
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #fff, #e9e9e9);
+    & img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.btn-scissors {
+     border: 15px solid yellow;
+     box-shadow: 0 7px 0 darken(yellow, 20%);
+ }
+
+.btn-rock {
+     border: 15px solid red;
+     box-shadow: 0 7px 0 darkred;
+ }
+
+.btn-paper {
+     border: 15px solid dodgerblue;
+     box-shadow: 0 7px 0 darken(dodgerblue, 20%);
+ }
+
+ .loader{
+    padding: 60px;
+    background-color: var(--bg-radial2);
+    opacity: 0.5;
+    border-radius: 50%;
+ }
+
+ .gameOver{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & button{
+        background-image: linear-gradient(to top, #fff, #e9e9e9);        color: blue;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        width: 80%;
+        padding: 15px 20px;
+        color: var(--score-text);
+        text-transform: uppercase;
+    }
+    @media (max-width:500px) {
+        position: absolute;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 200px;
+    }
+ }

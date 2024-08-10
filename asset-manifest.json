@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/css/main.c5e179aa.css",
-    "main.js": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/js/main.b7879a6a.js",
+    "main.css": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/css/main.81ba8de6.css",
+    "main.js": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/js/main.75ce9196.js",
     "static/media/logo.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/logo.a4a2b39fefcdb6a1a8088c4dba8f3d93.svg",
     "static/media/image-rules.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
     "static/media/icon-paper.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
@@ -10,11 +10,11 @@
     "static/media/icon-rock.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
     "static/media/icon-close.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-triangle.svg": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
-    "main.c5e179aa.css.map": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/css/main.c5e179aa.css.map",
-    "main.b7879a6a.js.map": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/js/main.b7879a6a.js.map"
+    "main.81ba8de6.css.map": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/css/main.81ba8de6.css.map",
+    "main.75ce9196.js.map": "/REACT-GAME-DEV-ROCKPAPERSCISSORS/static/js/main.75ce9196.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e179aa.css",
-    "static/js/main.b7879a6a.js"
+    "static/css/main.81ba8de6.css",
+    "static/js/main.75ce9196.js"
   ]
 }

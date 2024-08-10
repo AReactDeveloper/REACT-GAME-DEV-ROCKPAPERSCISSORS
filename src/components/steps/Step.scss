@@ -60,6 +60,19 @@
     }
 }
 
+.winnerBtn{
+    &:after{
+        content: '';
+        box-shadow:
+                2px 2px 5px rgba(0, 0, 0, 0.2),
+                /* First shadow */
+                4px 4px 10px rgba(0, 0, 0, 0.1),
+                /* Second shadow */
+                6px 6px 15px rgba(0, 0, 0, 0.05);
+            /* Third shadow */
+    }
+}
+
 .btn-scissors {
      border: 15px solid yellow;
      box-shadow: 0 7px 0 darken(yellow, 20%);
@@ -105,6 +118,6 @@
         width: 80%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 200px;
+        bottom: 80px;
     }
  }

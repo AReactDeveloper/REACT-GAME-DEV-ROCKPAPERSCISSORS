@@ -27,7 +27,7 @@ export default function Step2({playerChoice , coChoice,playerChoiceIcon,coChoice
     <>
     <section className='step2'>
         <div className="playerChoice">
-          <button className={`btn btn-${playerChoice}`}><img src={playerChoiceIcon} alt="" /></button>
+          <button className={`btn btn-${playerChoice} winnerBtn`}><img src={playerChoiceIcon} alt="" /></button>
           <h3>You Picked <br /> {playerChoice} </h3>
         </div>
         <div className='gameOver'>
